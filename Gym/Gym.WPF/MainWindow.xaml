@@ -55,7 +55,7 @@
                     <TextBox Name="editLastName" Width="70px" Canvas.Left="70" Canvas.Top="66px"></TextBox>
                     <Label Canvas.Top="90px">Start Date:</Label>
                     <TextBox Name="editStartDate" Width="70px" Canvas.Left="70" Canvas.Top="99px"></TextBox>
-                    <Label Canvas.Top="120px">Edit Date:</Label>
+                    <Label Canvas.Top="120px">End Date:</Label>
                     <TextBox Name="editEndDate" Width="70px" Canvas.Left="70" Canvas.Top="132"></TextBox>
                     <Button Click="EditClient" Height="20" Width="40" Content="Edit" Canvas.Top="170" Canvas.Left="53"></Button>
                 </Canvas>
