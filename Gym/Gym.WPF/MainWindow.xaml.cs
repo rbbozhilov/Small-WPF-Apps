@@ -2,6 +2,7 @@
 using Gym.Data.Models;
 using Gym.DI;
 using Gym.Services.Client;
+using MahApps.Metro.Controls;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
@@ -21,7 +22,7 @@ using System.Windows.Shapes;
 
 namespace Gym.WPF
 {
-    public partial class MainWindow : Window
+    public partial class MainWindow : MetroWindow
     {
 
         private ServiceProvider provider;
